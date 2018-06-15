@@ -193,11 +193,15 @@ h3 {
 }
 
 .cupula {
-  width: 118%;
+  display: none;
+}
+
+.cupula-mobile {
+  width: 100%;
   padding-left: 0;
   display: flex;
-  padding-bottom: 7%;
-  padding-top: 2%;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .parrafo-moncloa {
@@ -647,6 +651,10 @@ h3 {
   padding-left: 22%;
   display: flex;
   padding-bottom: 0;
+}
+
+.cupula-mobile {
+  display: none;
 }
 
 .texto-moncloa {
