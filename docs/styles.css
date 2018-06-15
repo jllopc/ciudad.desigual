@@ -1,0 +1,887 @@
+
+body {
+  margin-left: 0px;
+  margin-right:0px;
+  margin-top: 0px;
+  padding: 0px;
+  color: black;
+  border: 10px;
+  border-radius: 5px;
+}
+video {
+    width: 100%;
+    height: 103%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-top: 0%;
+    z-index: 999;
+  }
+
+.overlay-desc {
+  background: rgba(0,0,0,0);
+  position: absolute ;
+  top: 10%; right: 0; bottom: 0%; left: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.header h1 {
+  font-weight: 800  ;
+  color: white ;
+  font-family: 'Nobile', sans-serif  ;
+  font-size: 8vw  ;
+  text-align: center  ;
+  line-height: 18%  ;
+}
+
+.header h2 {
+    padding-top: 3%;
+  color: white;
+  font-family: "Source Sans Pro",Helvetica,Arial,sans-serif  ;
+  font-style: normal  ;
+  font-weight: 300  ;
+  font-size: 3.2vw  ;
+  text-align: center  ;
+}
+
+.background-h2 {
+  background-color: #fed105;
+  font-weight: 400;
+  color: black;
+}
+
+.underline-yellow {
+   border-bottom: 6px solid  #fdd031;
+}
+
+.capitalLetter {
+  float:left;
+  color: #fed105;
+  background:white;
+  font-size:42px;
+  line-height: 32px;
+  font-weight: 400;
+  padding:2px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  margin-right: 5%;
+  margin-bottom: 0;
+}
+
+p {
+    padding-bottom: 3%;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 190%;
+    font-size: 10px;
+    color: #555;
+    text-align: left;
+    word-wrap: break-word;
+    font-feature-settings: 'liga';
+}
+
+.texto-lead {
+  margin: 0%;
+  padding-top: 12%;
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-bottom: 10%;
+}
+
+.linea-bold {
+  font-weight: bold;
+  color: black;
+}
+
+.linea-bold-titulo {
+  font-weight: bold;
+  color: black;
+  font-family: Helvetica, sans-serif;
+}
+
+.icon-linea3 {
+  font-size: 13px;
+  font-weight: bolder;
+  color: #1d6bb5;
+  background-color: #fed105;
+  padding-right: 1.8%;
+  padding-left: 1.8%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  border-radius: 10%;
+}
+
+.icon-linea3-titulo {
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #1d6bb5;
+  background-color: #fed105;
+  padding-right: 1.8%;
+  padding-left: 1.8%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  border-radius: 10%;
+}
+
+.plano-situacion {
+  width: 100%;
+  margin-top: 1%;
+  overflow: auto;
+  display: flex;
+}
+
+.section-extremos {
+  background-color: #fffdf3;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 30px;
+    margin: 0%;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 5%;
+    padding-top: 15%;
+    overflow: auto;
+}
+
+.underline-moncloa {
+   border-bottom: 4px solid  #5DADE2;
+}
+
+.underline-villaverde {
+   border-bottom: 4px solid  #F5B041;
+}
+
+.texto-extremos {
+  margin-top: 0;
+  padding-right: 15%;
+  padding-left: 15%;
+  margin-bottom: 2%;
+}
+
+.enlace {
+  text-decoration: none;
+  color: #fed105;
+  font-weight: normal;
+}
+
+.enlace:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+}
+
+.grafico-vulnerabilidad {
+  width: 70%;
+  margin-top: 0;
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-bottom: 3%;
+}
+
+.grafico-extremos {
+  width: 80%;
+  margin-top: 0;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 3%;
+}
+
+.cupula {
+  width: 118%;
+  padding-left: 0;
+  display: flex;
+  padding-bottom: 7%;
+  padding-top: 2%;
+}
+
+.parrafo-moncloa {
+  padding-bottom: 3%;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  line-height: 190%;
+  font-size: 10px;
+  color: #555;
+  text-align: left;
+  word-wrap: break-word;
+  font-feature-settings: 'liga';
+}
+
+.texto-moncloa {
+  margin-top: 0;
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-bottom: 3%;
+}
+
+.texto-villaverde {
+  padding-top: 3.3%;
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-bottom: 10%;
+  background-color: #fff9de;
+}
+
+.parrafo-villaverde {
+  padding-bottom: 3%;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  line-height: 190%;
+  font-size: 10px;
+  color: #555;
+  text-align: left;
+  word-wrap: break-word;
+  font-feature-settings: 'liga';
+}
+
+.underline-villaverde-parrafo {
+  border-bottom: 4px solid  #F5B041;
+  font-weight: bold;
+}
+
+.underline-moncloa-parrafo {
+  border-bottom: 4px solid  #5DADE2;
+  font-weight: bold;
+}
+
+
+h4 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  padding-top: 10%;
+  overflow: auto;
+}
+
+.texto-estaciones {
+  margin-top: 0;
+  padding-right: 15%;
+  padding-left: 15%;
+  margin-bottom: 2%;
+}
+
+.grafico-manzanares {
+  margin: 0;
+  padding-top: 5%;
+  padding-bottom: 6%;
+  width: 100%;
+}
+
+.separador-seccion {
+  display: none;
+}
+
+.separador-seccion-mobile {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 0;
+}
+
+.seccion-estudios {
+  background-color: #F5FFF9;
+  padding-top: 8%;
+  padding-bottom: 6%;
+  margin-bottom: 5%;
+  overflow: auto;
+}
+
+.seccion-esperanza {
+  padding-top: 1%;
+  padding-bottom: 6%;
+  margin-bottom: 3%;
+  overflow: auto;
+}
+
+.seccion-poblacion {
+  background-color: #fffdf3;
+  padding-top: 5%;
+  padding-bottom: 1.5%;
+  margin-bottom: 4%;
+  overflow: auto;
+}
+
+.seccion-renta {
+    padding-top: 1%;
+    padding-bottom: 5%;
+    margin-bottom: 1%;
+    overflow: auto;
+}
+
+.seccion-paro {
+    background-color: #FFF6F3;
+    padding-top: 4%;
+    padding-bottom: 8%;
+    margin-bottom: 4%;
+    overflow: auto;
+}
+
+.seccion-vivienda {
+    padding-top: 1%;
+    padding-bottom: 5%;
+    margin-bottom: 1%;
+    overflow: auto;
+}
+
+.seccion-voto {
+    background-color: #F8F9F9;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 1%;
+    overflow: auto;
+    margin-bottom: 0;
+}
+
+.texto-izquierda {
+  margin-top: 0;
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-bottom: 3%;
+}
+
+.texto-derecha {
+  padding-top: 3.3%;
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-bottom: 10%;
+}
+
+.texto-graficos {
+  width: 70%;
+  margin: 0;
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-bottom: 5%;
+  padding-right: 15%;
+  text-align: center;
+}
+
+.texto-graficos_ancho {
+  width: 70%;
+  margin: 0;
+  padding-top: 0;
+  padding-left: 15%;
+  padding-bottom: 7%;
+  padding-right: 15%;
+  text-align: center;
+}
+
+.parrafo-graficos {
+  width: 100%;
+  padding-top: 20%;
+  text-align: center;
+}
+
+.grafico-variable {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-top: 10%;
+}
+
+.grafico-variable-completo {
+  width: 70%;
+  margin: 0;
+  padding-top: 6%;
+  padding-bottom: 0;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.metodología {
+  background-color: #F2F3F4;
+  margin: 0;
+  padding: 0;
+}
+
+h5 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 30px;
+    margin: 0%;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 5%;
+    padding-top: 15%;
+    overflow: auto;
+}
+
+.justificación {
+  background-color: #E5E7E9;
+  margin: 0;
+  padding: 0;
+}
+
+h6 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 30px;
+    margin: 0%;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 5%;
+    padding-top: 15%;
+    overflow: auto;
+}
+
+/* #prueba{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#prueba p {
+  first child- se refiere a el primer "hijo" de un contenedor
+  width: 50%
+} */
+
+
+@media screen and (min-width: 1100px){
+
+.overlay-desc {
+background: rgba(0,0,0,0);
+position: absolute;
+top: 28%; right: 0; bottom: 0%; left: 0;
+align-items: center;
+justify-content: center;
+}
+.capitalLetter {
+  font-size:80px;
+  line-height:60px;
+  margin-right: 20px;
+}
+.texto-lead {
+  margin-top: 14%;
+  padding-top: 0;;
+  padding-right: 30%;
+  padding-left: 25%;
+  padding-bottom: 8%;
+}
+
+.icon-linea3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1d6bb5;
+  background-color: #fed105;
+  padding-right: 1.3%;
+  padding-left: 1.3%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  border-radius: 10%;
+}
+
+.plano-situacion {
+  width: 100%;
+  margin: 0%;
+  overflow: auto;
+  display: flex;
+}
+
+.plano {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 18px;
+}
+    .barranav .nav-title{
+        margin-left: 1em
+    }
+
+    .barranav ul{
+        display: flex;
+        margin: 0
+    }
+    .barranav ul li{
+        padding-right: .5em
+    }
+
+.navbar {
+
+  z-index: 0;
+  position: fixed;
+  top: 7em;
+  margin-top: 1%;
+  width: 20%;
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10%;
+}
+
+.nav-title {
+  display: block;
+  padding-left: 12%;
+  margin-top: 6%;
+  color: #fed105;
+  font-family: 'Nobile', sans-serif;
+  font-size: 40px;
+  text-decoration: none;
+  font-weight:bolder;
+  line-height: 45px;
+}
+
+.nav-items {
+  padding-top: 10%;
+  padding-left: 12%;
+  width: 100%;
+}
+
+li a {
+  display: block;
+  color: #85807c;
+  font-family: 'Nobile', sans-serif;
+  font-size: 19px;
+  text-decoration: none;
+  font-weight:lighter;
+  line-height: 40px;
+}
+
+.item {
+  padding-top: 6%;
+  line-height: 28px;
+}
+
+.nav-title:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+li a:hover {
+    color: black;
+    font-weight: 400;
+}
+
+li a.active {
+  color: black;
+}
+
+h3 {
+	font-size: 52px;
+	line-height: 70px;
+	padding-left: 25%;
+}
+
+.section-extremos {
+  background-color: #fffdf3;
+  padding-top: 0%;
+  overflow: auto;
+}
+
+.texto-extremos {
+  margin: 0;
+  padding-top: 2%;
+  padding-left: 25%;
+  padding-bottom: 2%;
+}
+
+.grafico-vulnerabilidad {
+  width: 60%;
+  margin-top: 0;
+  padding-right: 15%;
+  padding-left: 25%;
+  padding-bottom: 2%;
+}
+
+.grafico-extremos {
+  width: 65%;
+  margin-top: 0;
+  padding-right: 12.5%;
+  padding-left: 22.5%;
+}
+
+.cupula {
+  width: 80%;
+  padding-left: 22%;
+  display: flex;
+  padding-bottom: 0;
+}
+
+.texto-moncloa {
+  margin: 0;
+  width: 31%;
+  text-align: right;
+  padding-top: 8%;
+  padding-right: 0;
+  padding-bottom: 2%;
+  padding-left: 22%;
+  float: left;
+}
+
+.parrafo-moncloa {
+  line-height: 190%;
+  font-size: 18px;
+  text-align: right;
+}
+
+.underline-moncloa-parrafo {
+  border-bottom: 4px solid  #5DADE2;
+  font-weight: bold;
+}
+
+.texto-villaverde {
+  margin: 0;
+  width: 31%;
+  text-align: left;
+  padding-top: 8%;
+  padding-right: 10%;
+  padding-left: 3%;
+  padding-bottom: 5%;
+  float: right;
+}
+
+.underline-villaverde-parrafo {
+  border-bottom: 4px solid  #F5B041;
+  font-weight: bold;
+}
+
+.parrafo-villaverde {
+  font-size: 18px;
+}
+
+
+/* .section-interactivo {
+  padding-top: 0;
+  overflow: auto;
+}
+
+.grafico-interactivo {
+  width: 240px;
+  margin-top: 1%;
+  margin-left: 15%;
+  float: left;
+} */
+
+
+/* .hidden {display: none;}
+
+.unhidden { display: block; }
+
+.texto_estaciones_interactivo {width: 20%;}
+
+.parrafo_estaciones {
+  line-height: 230%;
+  font-size: 15px;
+}
+
+.grafico-moncloa {
+  width: 30%;
+  padding-left: 20%;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  line-height: 190%;
+  font-size: 17px;
+  color: #555;
+} */
+
+.section-estaciones {
+  padding-bottom: 2%;
+}
+
+h4 {
+	font-size: 52px;
+	line-height: 70px;
+	padding-left: 25%;
+	padding-bottom: 4%;
+}
+
+.texto-estaciones {
+  margin: 0;
+  padding-top: 2%;
+  padding-left: 25%;
+  padding-bottom: 2%;
+}
+
+.grafico-manzanares {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5%;
+  width: 100%;
+}
+
+.separador-seccion {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.separador-seccion-mobile {
+  display: none;
+}
+
+.seccion-estudios {
+  background-color: #F5FFF9;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  margin-bottom: 3%;
+  overflow: auto;
+}
+
+.seccion-esperanza {
+  padding-top: 1%;
+  padding-bottom: 5%;
+  margin-bottom: 1%;
+  overflow: auto;
+}
+
+.seccion-poblacion {
+  background-color: #fffdf3;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 4%;
+  overflow: auto;
+}
+
+.seccion-renta {
+    padding-top: 1%;
+    padding-bottom: 5%;
+    margin-bottom: 1%;
+    overflow: auto;
+}
+
+.seccion-paro {
+    background-color: #FFF6F3;
+    padding-top: 4%;
+    padding-bottom: 8%;
+    margin-bottom: 4%;
+    overflow: auto;
+}
+
+.seccion-vivienda {
+    padding-top: 1%;
+    padding-bottom: 5%;
+    margin-bottom: 1%;
+    overflow: auto;
+}
+
+.seccion-voto {
+    background-color: #F8F9F9;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 1%;
+    overflow: auto;
+    margin-bottom: 0;
+}
+
+.texto-izquierda {
+  margin: 0;
+  width: 35%;
+  text-align: right;
+  padding-top: 3%;
+  padding-right: 1%;
+  padding-bottom: 3%;
+  padding-left: 22%;
+  float: left;
+  display: block;
+}
+
+.parrafo-izquierda {
+  line-height: 190%;
+  font-size: 17px;
+  text-align: right;
+}
+
+.texto-derecha {
+  margin: 0;
+  width: 35%;
+  text-align: left;
+  padding-top: 3%;
+  padding-right: 6%;
+  padding-left: 1%;
+  padding-bottom: 3%;
+  float: right;
+  display: block;
+}
+
+.parrafo-derecha {
+  font-size: 17px;
+  padding-top: 21%;
+  padding-left: 4%;
+  padding-right: 2%;
+  padding-bottom: 5%;
+}
+
+.texto-graficos {
+  width: 54%;
+  margin: 0;
+  padding-top: 5%;
+  padding-left: 30%;
+  padding-bottom: 6%;
+  padding-right: 16%;
+  text-align: center;
+}
+
+.texto-graficos_ancho {
+  width: 65%;
+  margin: 0;
+  padding-top: 2%;
+  padding-left: 25%;
+  padding-bottom: 2.5%;
+  padding-right: 10%;
+  text-align: center;
+}
+
+.parrafo-graficos {
+  width: 100%;
+  padding-top: 20%;
+  text-align: center;
+}
+
+.grafico-variable {
+  width: 100%;
+  margin: 0;
+  padding-top: 6%;
+  padding-bottom: 0;
+}
+
+.grafico-variable-completo {
+  width: 55%;
+  margin: 0;
+  padding-top: 6%;
+  padding-bottom: 0;
+  padding-left: 29%;
+  padding-right: 16%;
+}
+
+.metodología {
+  background-color: #F2F3F4;
+  padding-top: 0%;
+  padding-bottom: 5%;
+  overflow: auto;
+}
+
+h5 {
+	font-size: 52px;
+	line-height: 70px;
+	padding-left: 25%;
+  padding-top: 10%;
+}
+
+.justificación {
+  background-color: #E5E7E9;
+  padding-top: 0%;
+  padding-bottom: 5%;
+  overflow: auto;
+}
+
+h6 {
+	font-size: 52px;
+	line-height: 70px;
+	padding-left: 25%;
+  padding-top: 10%;
+}

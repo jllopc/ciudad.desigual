@@ -1,0 +1,61 @@
+
+.aside {
+	display: none;
+}
+
+@media screen and (min-width: 1100px){
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 14px/1.5 Helvetica, Arial, sans-serif;
+}
+
+.container {
+}
+
+.row {
+}
+
+.row:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.content {
+	float: left;
+}
+
+.aside {
+	float: left;
+	/*padding: 20px;*/
+	width: 0;
+	display: flex;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+.stickit {
+	position: fixed;
+	top: 0;
+}
+
+.stickit-end {
+	bottom: 40px;
+	position: absolute;
+	right: 0;
+}
+
+}
