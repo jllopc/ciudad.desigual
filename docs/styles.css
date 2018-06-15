@@ -1,13 +1,14 @@
-
 body {
-  margin-left: 0px;
-  margin-right:0px;
-  margin-top: 0px;
+  margin-left: 0;
+  margin-right:0;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 0px;
   color: black;
   border: 10px;
   border-radius: 5px;
 }
+
 video {
     width: 100%;
     height: 103%;
@@ -72,7 +73,7 @@ p {
     font-family: Helvetica, sans-serif;
     font-weight: lighter;
     line-height: 190%;
-    font-size: 10px;
+    font-size: 15px;
     color: #555;
     text-align: left;
     word-wrap: break-word;
@@ -402,6 +403,7 @@ h4 {
   background-color: #F2F3F4;
   margin: 0;
   padding: 0;
+  padding-bottom: 8%;
 }
 
 h5 {
@@ -421,6 +423,7 @@ h5 {
   background-color: #E5E7E9;
   margin: 0;
   padding: 0;
+  padding-bottom: 10%;
 }
 
 h6 {
@@ -434,6 +437,40 @@ h6 {
 	padding-bottom: 5%;
     padding-top: 15%;
     overflow: auto;
+}
+
+.footer {
+  background-color: #34495E;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 8%;
+}
+
+.texto-izquierda-footer {
+  padding-top: 16%;
+  margin-top: 0;
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-bottom: 3%;
+}
+
+.texto-derecha-footer {
+  padding-top: 16%;
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-bottom: 10%;
+}
+
+.parrafo-footer {
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  margin: 0;
+}
+
+.enlace-footer {
+  color: #AEB6BF;
+  font-weight: 100;
 }
 
 /* #prueba{
@@ -884,4 +921,44 @@ h6 {
 	line-height: 70px;
 	padding-left: 25%;
   padding-top: 10%;
+}
+
+.footer {
+  background-color: #34495E;
+  padding-top: 0;
+  padding-bottom: 0;
+  overflow: auto;
+  margin: 0;
+}
+
+.texto-izquierda-footer {
+  margin: 0;
+  width: 40%;
+  text-align: right;
+  padding-top: 3%;
+  padding-right: 1%;
+  padding-bottom: 3%;
+  padding-left: 25%;
+  float: left;
+  display: block;
+}
+
+.texto-derecha-footer {
+  margin: 0;
+  width: 20%;
+  text-align: right;
+  padding-top: 3%;
+  padding-right: 11%;
+  padding-left: 1%;
+  padding-bottom: 3%;
+  float: right;
+  display: block;
+  line-height: 10%;
+}
+
+.parrafo-footer {
+  color: white;
+  font-size: 16px;
+  margin: 0;
+  padding-top: 1%;
 }
