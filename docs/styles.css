@@ -177,7 +177,7 @@ h3 {
 }
 
 .grafico-vulnerabilidad {
-  width: 70%;
+  width: 90%;
   margin-top: 0;
   padding-right: 5%;
   padding-left: 5%;
@@ -185,7 +185,7 @@ h3 {
 }
 
 .grafico-extremos {
-  width: 80%;
+  width: 90%;
   margin-top: 0;
   padding-right: 5%;
   padding-left: 5%;
@@ -362,7 +362,7 @@ h4 {
 }
 
 .texto-graficos {
-  width: 70%;
+  width: 80%;
   margin: 0;
   padding-top: 5%;
   padding-left: 10%;
@@ -372,7 +372,7 @@ h4 {
 }
 
 .texto-graficos_ancho {
-  width: 70%;
+  width: 80%;
   margin: 0;
   padding-top: 0;
   padding-left: 10%;
@@ -395,7 +395,7 @@ h4 {
 }
 
 .grafico-variable-completo {
-  width: 70%;
+  width: 80%;
   margin: 0;
   padding-top: 6%;
   padding-bottom: 0;
