@@ -766,6 +766,7 @@ h4 {
 }
 
 .grafico-manzanares {
+  display: flex;
   margin: 0;
   padding: 0;
   padding-bottom: 5%;
