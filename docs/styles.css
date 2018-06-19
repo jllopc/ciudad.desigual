@@ -143,9 +143,9 @@ p {
 
 h3 {
 	font-family: Georgia, Times, "Times New Roman", serif;
-	font-size: 22px;
+	font-size: 7.5vw;
 	font-weight: 500;
-	line-height: 30px;
+	line-height: 10vw;
     margin: 0%;
 	padding-left: 10%;
 	padding-right: 10%;
@@ -261,9 +261,9 @@ h3 {
 
 h4 {
   font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 22px;
+  font-size: 7.5vw;
   font-weight: 500;
-  line-height: 30px;
+  line-height: 10vw;
   margin: 0%;
   padding-left: 10%;
   padding-right: 10%;
@@ -421,9 +421,9 @@ h4 {
 
 h5 {
 	font-family: Georgia, Times, "Times New Roman", serif;
-	font-size: 22px;
+	font-size: 7.5vw;
 	font-weight: 500;
-	line-height: 30px;
+	line-height: 10vw;
     margin: 0%;
 	padding-left: 10%;
 	padding-right: 10%;
@@ -441,9 +441,9 @@ h5 {
 
 h6 {
 	font-family: Georgia, Times, "Times New Roman", serif;
-	font-size: 22px;
+	font-size: 7.5vw;
 	font-weight: 500;
-	line-height: 30px;
+	line-height: 10vw;
     margin: 0%;
 	padding-left: 10%;
 	padding-right: 10%;
