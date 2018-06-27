@@ -115,13 +115,12 @@ p {
 .icon-linea3-titulo {
   font-family: Helvetica, sans-serif;
   font-weight: bolder;
-  color: #1d6bb5;
-  background-color: #fed105;
+  color: white;
+  background-color: #AED6F1;
   padding-right: 1.8%;
   padding-left: 1.8%;
   padding-top: 0.5%;
   padding-bottom: 0.5%;
-  border-radius: 10%;
 }
 
 .plano-situacion-mobile {
@@ -261,6 +260,47 @@ h3 {
 .underline-moncloa-parrafo {
   border-bottom: 4px solid  #5DADE2;
   font-weight: bold;
+}
+
+.texto-indices {
+  margin-top: 0;
+  padding-right: 8%;
+  padding-left: 8%;
+  margin-bottom: 0;
+  padding-top: 6%;
+  padding-bottom: 5%;
+}
+
+.seccion-indices {
+  background-color: #fff5cc;
+}
+
+.icscr {
+  color: #2E86C1;
+}
+
+.privacion {
+  color: #D35400;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.parrafo-after-video {
+  padding-top: 7%;
+  padding-bottom: 7%;
 }
 
 
@@ -791,6 +831,25 @@ h3 {
   font-size: 17px;
   color: #555;
 } */
+
+.seccion-indices {
+  padding-bottom: 2%;
+}
+
+h4 {
+	font-size: 52px;
+	line-height: 70px;
+	padding-left: 25%;
+	padding-bottom: 1%;
+  padding-top: 10%;
+}
+
+.texto-indices {
+  margin: 0;
+  padding-top: 5%;
+  padding-left: 25%;
+  padding-bottom: 2%;
+}
 
 .section-estaciones {
   padding-bottom: 2%;

@@ -28,10 +28,10 @@
         <li><a class="nav-title" href="#top">CIUDAD DESIGUAL</a></li>
         <div class="nav-items">
           <li><a class="item" href="#Extremos">Los extremos: Moncloa vs. Villaverde Alto</a></li>
-          <li><a class="item" href="#Estaciones">Línea 3: desigualdades estación a estación</a></li>
+          <li><a class="item" href="#Indices">Índices en desigualdad: ICSCR y Privación</a></li>
+          <li><a class="item" href="#Estaciones">Desigualdades estación a estación: el papel central del río Manzanares</a></li>
           <li><a class="item" href="#Datos">Explorando los datos</a></li>
           <li><a class="item" href="#Metodología">Metodología</a></li>
-          <li><a class="item" href="#Justificación">Justificación e interés del proyecto | Asignaturas utilizadas</a></li>
         </div>
       </ul>
     </div>
@@ -112,8 +112,31 @@
     </div>
 
 
+    <div class="seccion-indices" id="Indices">
+      <h4><span class="linea-bold-titulo">Índices en desigualdad: <span class="icscr">ICSCR</span> y <span class="privacion">Privación</span></h4>
+        <div class="texto-indices">
+          <p>Con la intención de conocer más sobre desigualdad nos entrevistamos con José Manuel Díaz Olalla, asesor técnico de Gerencia de Madrid Salud. Olalla y su equipo realizan estudios sobre la situación de la salud en Madrid, pero en muchas ocasiones utilizan indicadores e índices que ofrecen una visión más amplia sobre la realidad de cada una de las zonas de la ciudad. Es el caso del Índice Combinado de Salud, Conocimiento y Renta (ICSCR), por un lado, y el Índice de Privación, por otro. Unos índices que se complementan para mostrar la realidad desde un enfoque positivo (el primero) y desde un enfoque negativo, explicando las limitaciones o privaciones de la población (el segundo).</p>
+
+          <p>Estos índices tienen un objetivo claro: guiar las intervenciones llevadas a cabo por parte de las instituciones públicas con el propósito de reducir estas desigualdades, y, específicamente para Madrid Salud, mejorar la salud de la población. Hecho que, según explica Díaz Olalla, no siempre se cumple. “Partimos desde el punto de vista de que las desigualdades en salud son injustas, y además son subsanables con la intervención (de los poderes públicos)”. “Es satisfactorio cuando ves que las intervenciones se hacen teniendo en cuenta las conclusiones que aportan estos estudios”.</p>
+
+          <div class="embed-container">
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/v0woG36Co5w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+
+          <p class="parrafo-after-video">Al adaptar el Índice Combinado de Salud, Conocimiento y Renta a las zonas delimitadas para este proyecto, vemos cómo los resultados confirman las grandes diferencias entre las zonas de Moncloa y Villaverde Alto. Sin duda, de los tres indicadores que conforman el índice, el que potencia más las desigualdades en este caso es el nivel de estudios de la población adulta, que muestra datos muy dispares según las diferentes estaciones, como hemos visto anteriormente. Destaca el mal resultado de Lavapiés respecto las estaciones contiguas y, especialmente, la gran brecha entre Legazpi y Almendrales.</p>
+
+          <div class="embed-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tPSIasgADBk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+
+          <p class="parrafo-after-video">Este segundo índice muestra el nivel de privación de la población, es decir, las limitaciones que los ciudadanos experimentan en el cumplimiento de unos niveles mínimos de bienestar. Se analizan variables como la situación de desempleo, la recepción de la Renta Mínima de Inserción o la situación de hacinamiento en el hogar. Aunque no disponemos de datos fiables para tres estaciones, sí podemos observar una tendencia clara: en la zona sur (y en Lavapiés), los madrileños y madrileñas se enfrentan cada día a mayores privaciones que los vecinos del norte de la línea.</p>
+
+        </div>
+      </div>
+
+
     <div class="section-estaciones" id="Estaciones">
-      <h4><span class="linea-bold-titulo">Línea</span> <span class="icon-linea3-titulo">3</span>: desigualdades estación a estación</h4>
+      <h4>Desigualdades estación a estación: el papel central del <span class="icon-linea3-titulo">río Manzanares</span></h4>
         <div class="texto-estaciones">
           <p>Los datos de Moncloa y Villaverde Alto evidencian las desigualdades que existen entre las estaciones de cabecera de la línea 3 de metro. Pero, ¿cómo evolucionan estas desigualdades a lo largo de las 18 estaciones de la línea?</p>
 
@@ -223,6 +246,8 @@
     <div class="metodología" id="Metodología">
       <h5>Metodología</h5>
         <div class="texto-extremos">
+          <p>La idea del proyecto nace de la intención de abordar el estudio de las desigualdades entre las diferentes zonas de la ciudad de Madrid. El objetivo fundamental es mostrar una realidad de una forma original, pero no se pretende en ningún caso llegar a unas conclusiones absolutas ni reflejar, en esta primera fase del estudio, el por qué de estas desigualdades ni las actuaciones de los respectivos gobiernos implicados.</p>
+
           <p>Para la elaboración de este estudio ha sido necesario, además de obtener los datos más adecuados para cada variable analizada, volver a calcularlos para cada una de las zonas de la ciudad propuestas. Cada una de estas zonas es la superfície que queda a 350 metros de distancia de cada una de las 18 estaciones de la línea 3 de Metro de Madrid, y que se ve reflejada en color amarillo claro en la primera imagen de este sitio web. Este "recálculo" se ha llevado a cabo con el programa de software QGIS. En primer lugar, hay que especificar que los datos reflejados hacen referencia a secciones censales y a barrios (depende del caso), con el objetivo de disponer del mayor nivel de detalle posible para que los datos se ajustaran mejor a la realidad de cada zona. Con estos datos, se ha optado por utilizar un valor único para cada unidad (sección o barrio) que se expresa en forma de tasa o promedio, y que permite llevar a cabo el resto de cálculos. Posteriormente, se ha realizado un prorrateo de este dato teniendo en cuenta el porcentaje de superfície que ocupa la unidad de análisis (sección o barrio) respecto las zonas de influencia propuestas. Es decir, a cada dato se le asigna un "peso" según la importancia que tiene dentro de cada zona calculada. Una vez obtenidos los datos, se ha optado por el programa de software Adobe Illustrator para la realización de los diferentes gráficos e infografías. También se han elaborado imágenes con QGIS.</p>
 
           <p>Todos los datos utilizados proceden de fuentes oficiales, aunque de diferentes entidades. En concreto, las fuentes utilizadas han sido: Instituto Nacional de Estadística, Madrid Salud, Ayuntamiento de Madrid, Urban Audit e Idealista (con datos elaborados previamente por la sección de datos de El Confidencial, a raíz de la publicación de <a href="https://www.elconfidencial.com/vivienda/2017-09-01/alquiler-precio-barrios-madrid-barcelona_1435196/">este artículo</a>). La base de datos elaborada para este proyecto, junto con la explicación detallada de la naturaleza de los datos utilizados, es libre y se puede descargar <a href="BBDD_ciudad-desigual.xlsx">aquí</a>. </p>
@@ -231,19 +256,10 @@
         </div>
       </div>
 
-      <div class="justificación" id="Justificación">
-        <h6>Justificación e interés del proyecto | Asignaturas utilizadas</h6>
-          <div class="texto-extremos">
-            <p>La idea del proyecto nace de la intención de abordar el estudio de las desigualdades dentro de la ciudad de una forma atractiva para el lector. Contando los datos a lo largo de una línea de metro se consigue captar la atención y una mayor identificación con el tema. La gran cantidad de datos existentes sobre desigualdades es un aspecto que sin duda enriquece el proyecto, que se plantea, desde un primer momento, como un proyecto de visualización de datos. Por esta razón, el objetivo fundamental es mostrar una realidad de una forma original, pero no se pretende en ningún caso llegar a unas conclusiones absolutas ni reflejar, en esta primera fase del estudio, el por qué de estas desigualdades ni las actuaciones de los respectivos gobiernos implicados.</p>
-
-            <p>Los conocimientos desarrollados en este proyecto forman parte, fundamentalmente, de las asinaturas de "Visualización de historias periodísticas", en la parte fundamental de conocimientos sobre Illustrator y QGIS, y "Web scrapping, programación y desarrollo web" y "Mapping" en conocimientos sobre construcción y lanzamiento de un sitio web sencillo. Otras asignaturas utilizadas han sido "Storytelling", "Data mining" (con Adrián Blanco empecé a trabajar con microdatos de secciones censales), "Hojas de cálculo y bases de datos", y "Videoperiodismo". Mención especial a la ayuda recibida por parte de Luis Sevillano, quien desde el primer momento estuvo dispuesto a ayudarme en la parte del trabajo con QGIS; a Javier Barriocanal, por (re)descubrirme Illustrator, a César Peña, por las ideas y temas vistos que sirvieron de inspiración, y a Eduardo Rodés y Adolfo Antón, por los conocimientos aplicados en este proyecto sobre desarrollo web básico. </p>
-          </div>
-        </div>
-
         <div class="footer">
             <div class="texto-izquierda-footer">
               <p class="parrafo-footer">Inspiración: <a href="https://projects.newyorker.com/story/subway/" class="enlace-footer">Inequality and New York's Subway (The New Yorker)</a> | <a href="https://interaktiv.morgenpost.de/m29/" class="enlace-footer">M29 - Berlins Buslinie der großen Unterschiede (Berliner Morgenpost)</a></p>
-              <p class="parrafo-footer"><a href="http://periodismodatos.villanueva.edu/" class="enlace-footer">Máster en Periodismo de datos</a> | <a href="https://www.villanueva.edu/" class="enlace-footer">Centro Universitario Villanueva</a></p>
+              <p class="parrafo-footer">Proyecto realizado como Trabajo Final de Máster | <a href="http://periodismodatos.villanueva.edu/" class="enlace-footer">Máster de Periodismo de Datos</a>
             </div>
             <div class="texto-derecha-footer">
               <p class="parrafo-footer">Joan Llop | <a href="https://drive.google.com/file/d/1YHTEuj6fKISMiuoSWHtVLQ8_2c0n13YB/view?usp=sharing" class="enlace-footer">Currículum Vitae</a></p>
