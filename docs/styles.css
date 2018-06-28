@@ -73,7 +73,7 @@ p {
     font-family: Helvetica, sans-serif;
     font-weight: lighter;
     line-height: 190%;
-    font-size: 2vw;
+    font-size: 3vw;
     color: #555;
     text-align: left;
     word-wrap: break-word;
@@ -217,7 +217,7 @@ h3 {
   font-family: Helvetica, sans-serif;
   font-weight: lighter;
   line-height: 190%;
-  font-size: 15px;
+  font-size: 3vw;
   color: #555;
   text-align: left;
   word-wrap: break-word;
@@ -244,7 +244,7 @@ h3 {
   font-family: Helvetica, sans-serif;
   font-weight: lighter;
   line-height: 190%;
-  font-size: 15px;
+  font-size: 3vw;
   color: #555;
   text-align: left;
   word-wrap: break-word;
@@ -530,7 +530,7 @@ h6 {
 .parrafo-footer {
   color: white;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 3vw;
   margin: 0;
 }
 
