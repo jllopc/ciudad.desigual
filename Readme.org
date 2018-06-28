@@ -1,0 +1,5 @@
+#La línea de la desigualdad
+
+#Proyecto periodístico en el que se muestran las desigualdades entre diferentes zonas de la ciudad de Madrid siguiendo el trayecto de la línea 3 de Metro. Los valores analizados para las zonas situadas entorno a cada una de las estaciones de la línea son: renta, nivel de estudios, paro, esperanza de vida e inmigración.
+
+#Las zonas analizadas son aquellas que quedan a 350 metros de distancia de cada una de las estaciones. El recálculo de los datos para estas zonas se ha obtenido con QGIS y posteriormente se ha visualizado con QGIS e Illustrator. 
