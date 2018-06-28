@@ -59,11 +59,10 @@ video {
   float:left;
   color: #fed105;
   background:white;
-  font-size: 70px;
-  line-height: 30px;
+  font-size: 18vw;
   font-weight: 400;
   padding-top: 4%;
-  padding-bottom: 3%;
+  padding-bottom: 4%;
   font-family: Georgia, Times, "Times New Roman", serif;
   margin-right: 5%;
   margin-bottom: 0;
@@ -74,7 +73,7 @@ p {
     font-family: Helvetica, sans-serif;
     font-weight: lighter;
     line-height: 190%;
-    font-size: 15px;
+    font-size: 2vw;
     color: #555;
     text-align: left;
     word-wrap: break-word;
@@ -340,7 +339,7 @@ h5 {
 }
 
 .destacado {
-  border-left: 7px solid #fed105;
+  border-left: 10px solid #fed105;
   font-family: 'Roboto';
   font-size: 6vw;
   line-height: 8.5vw;
@@ -582,9 +581,9 @@ justify-content: center;
 }
 
 .capitalLetter {
-  font-size:80px;
-  line-height:60px;
+  font-size: 90px;
   margin-right: 20px;
+  padding-bottom: 2%;
 }
 .texto-lead {
   margin-top: 14%;
